@@ -9,5 +9,5 @@ node cuentas.js nombre_del_archivo
 node trxs.js nombre_del_archivo 
 
 ## instruccions
-in account folder add all related files
-in trxs folder add all related files
+in account folder add all related files in .Json
+in trxs folder add all related files in .Json
