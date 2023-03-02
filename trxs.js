@@ -39,9 +39,7 @@ const validaciondeaccount = async (name, wb) => {
             let celda = 1
             for (let propiedad in valor) {
               let trx_id = 1
-              for (let ite in valor[propiedad]) {
-                
-                console.log(isNumberObject(valor[propiedad][ite]))
+              for (let ite in valor[propiedad]) {                
                 ws.cell(15, trx_id).string(ite).style(style)
                 ws.cell(15 + celda, trx_id).string(JSON.stringify(valor[propiedad][ite])).style(style)
                 trx_id = trx_id + 1;

@@ -39,7 +39,7 @@ const validaciondeaccount = async (name, wb) => {
           let titulo = `${key} : ${items}`
           ws.cell(9, idcelda).string(titulo).style(style)
           let valor = json[key][items] === null ? null : json[key][items];
-          ws.cell(10, idcelda).string(String.parse(valor)).style(style)
+          ws.cell(10, idcelda).string(JSON.stringify(valor)).style(style)
 
 
 
@@ -62,10 +62,6 @@ const proceso = async () => {
   }
 
   wb.write('cuentas.xlsx')
-
-
-
-
 }
 
 proceso() // Metodo void solo para ejecutar
