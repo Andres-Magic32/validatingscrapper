@@ -1,0 +1,27 @@
+{
+  "name": "validatingscrapper",
+  "version": "1.0.0",
+  "description": "Validación para scrapper (campos)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres-Magic32/validatingscrapper.git"
+  },
+  "keywords": [
+    "scrapper"
+  ],
+  "author": "qa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andres-Magic32/validatingscrapper/issues"
+  },
+  "homepage": "https://github.com/Andres-Magic32/validatingscrapper#readme",
+  "dependencies": {
+    "excel4node": "^1.8.0",
+    "minimist": "^1.2.8"
+  }
+}

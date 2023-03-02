@@ -1,0 +1,66 @@
+{
+    "data": {
+      "state": "5cbc7f83-c43e-0505-1331-374f06d9d0cd",
+      "account_id": "1nKBIqWTiXcRCS9HuQqJRgdWqkubpM/tdDAZc4kSJsY=",
+      "user_id": null,
+      "credential_id": "5cbc7f83-c43e-0505-1331-374f06d9d0cd",
+      "transactions": [
+        {
+          "id": "CQTSQauZOOpZdoQHpFNIzPmlaeQ4yHlWVNbGJm4fx6c=",
+          "amount": 3710,
+          "created_at": "2023-02-13T00:00:00+00:00",
+          "made_on": "2023-02-13T00:00:00+00:00",
+          "description": "Rappi rappi las cond",
+          "status": "posted",
+          "updated_at": null,
+          "extra_data": {
+            "CurrentFee": 0,
+            "TotalFee": 0
+          }
+        },
+        {
+          "id": "NWzKPjX1pkf/XZAN6wguP2QoD4e5YsuqKxkmOFhzK80=",
+          "amount": -328,
+          "created_at": "2023-02-06T00:00:00+00:00",
+          "made_on": "2023-02-06T00:00:00+00:00",
+          "description": "Rappi chile 3 cred.compras",
+          "status": "posted",
+          "updated_at": null,
+          "extra_data": {
+            "CurrentFee": 0,
+            "TotalFee": 0
+          }
+        },
+        {
+          "id": "SpQnfkMv5lz3zEvrzC01jnxZHSovYjf5kzY+MSe3GSE=",
+          "amount": 16267,
+          "created_at": "2023-02-06T00:00:00+00:00",
+          "made_on": "2023-02-06T00:00:00+00:00",
+          "description": "Uber compras",
+          "status": "posted",
+          "updated_at": null,
+          "extra_data": {
+            "CurrentFee": 0,
+            "TotalFee": 0
+          }
+        },
+        {
+          "id": "LYqWHgtA0HBQwcMUXvcdg7o2Yp/ONx7ClfJCrzhuEio=",
+          "amount": 328,
+          "created_at": "2023-02-05T00:00:00+00:00",
+          "made_on": "2023-02-05T00:00:00+00:00",
+          "description": "Rappi chile 3 compras",
+          "status": "posted",
+          "updated_at": null,
+          "extra_data": {
+            "CurrentFee": 0,
+            "TotalFee": 0
+          }
+        }
+      ]
+    },
+    "meta": {
+      "timestamp": "2023-02-14T05:28:36.295826",
+      "version": "1.1.0"
+    }
+  }

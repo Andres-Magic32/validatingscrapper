@@ -1,0 +1,36 @@
+{
+    "data": {
+      "soy otro json": "cCSFB3HZMir8BhJpGehZSGREpHU+XxHFK1T+EY5WIl4=",
+      "name": "Credencial Mastercard",
+      "balance": -5012561.97,
+      "number": "************3305",
+      "nature": "credit_card",
+      "created_at": null,
+      "updated_at": null,
+      "is_credit_card": true,
+      "credit_detail": null,
+      "extra_data": {
+        "UniqueId": "cCSFB3HZMir8BhJpGehZSGREpHU+XxHFK1T+EY5WIl4=",
+        "user": "DUVAN ARBEY RESTREPO",
+        "Order": 1,
+        "Type": "CCA"
+      },
+      "available_balance": null,
+      "contigent_balance": null,
+      "validation_balance": null,
+      "validated_balance": null,
+      "disposed_balance": null,
+      "posted_balance": null,
+      "currency": "COP",
+      "credential_id": "71bb65ab07874521b9e9f3a3e4394009",
+      "user_id": null,
+      "state": "71bb65ab07874521b9e9f3a3e4394009",
+      "institution": null,
+      "client_id": null
+    },
+    "meta": {
+      "time": "2023-03-01T01:35:32.4026275+00:00",
+      "version": "2.0.0",
+      "message_id": "0e34eb7d-fa61-41fb-9cd3-e750f709ae5d"
+    }
+  }
