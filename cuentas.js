@@ -64,12 +64,15 @@ const proceso = async () => {
   fs.readdir(testFolder, (err, files) => {
     console.log('Se detecta', files.length, 'documentos')
     files.forEach(element => {
+      if(element.slice(element.length - 5) === '.json'){
       validaciondeaccount(element, wb);
+      }
     });
   })
   setTimeout(() => {
-    console.log('generando documento : ', nombre)
-    wb.write(`${nombre}.xlsx`)
+    const archivoname = nombre === undefined ? 'default' : nombre
+    console.log('generando documento : ', archivoname)
+    wb.write(`${archivoname}.xlsx`)
   }, 4000);
 
 }

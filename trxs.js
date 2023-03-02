@@ -75,17 +75,20 @@ const proceso = async () => {
 
   const testFolder = './trxs/';
   const wb = new xl.Workbook();
-  const nombre = args._[0];
+  const nombre = args._[0];  
 
   fs.readdir(testFolder, (err, files) => {
     console.log('Se detectan', files.length, ' documentos')
     files.forEach(element => {
-      validaciondeaccount(element, wb);
+      if(element.slice(element.length - 5) === '.json'){
+        validaciondeaccount(element, wb);
+        }
     });
   })
   setTimeout(() => {
-    console.log('generando documento : ', nombre)
-    wb.write(`${nombre}.xlsx`)
+    const archivoname = nombre === undefined ? 'default' : nombre
+    console.log('generando documento : ', archivoname)
+    wb.write(`${archivoname}.xlsx`)
   }, 4000);
 
 
