@@ -1,10 +1,11 @@
 import { readFile } from 'fs/promises'
 import xl from 'excel4node'
 import minimist from 'minimist';
-import { isNumberObject } from 'util/types';
+import fs from 'fs';
 
 
 const validaciondeaccount = async (name, wb) => {
+  console.log('procesando archivo',name)
 
   const ws = wb.addWorksheet(`${name}`);
   var style = wb.createStyle({
@@ -72,12 +73,20 @@ const validaciondeaccount = async (name, wb) => {
 const proceso = async () => {
   const args = minimist(process.argv.slice(2))
 
+  const testFolder = './trxs/';
   const wb = new xl.Workbook();
-  for (let item in args._) {
-    await validaciondeaccount(args._[item], wb);
-  }
+  const nombre = args._[0];
 
-  wb.write('transacciones.xlsx')
+  fs.readdir(testFolder, (err, files) => {
+    console.log('Se detectan', files.length, ' documentos')
+    files.forEach(element => {
+      validaciondeaccount(element, wb);
+    });
+  })
+  setTimeout(() => {
+    console.log('generando documento : ', nombre)
+    wb.write(`${nombre}.xlsx`)
+  }, 4000);
 
 
 
