@@ -30,7 +30,7 @@ const validaciondeaccount = async (name, wb) => {
       for (let items in json[key]) {
         const objet = typeof (json[key][items]);
 
-        if (objet === 'object') {
+        if (objet === 'object') { 
 
           let titulo = `${key} : ${items}`
           ws.cell(9, idcelda).string(titulo).style(style)
