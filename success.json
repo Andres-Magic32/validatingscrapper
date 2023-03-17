@@ -1,0 +1,14 @@
+{
+    "data": {
+      "credential_id": "20a1c456-6b89-7df1-119b-f458bb0a73be",
+      "user_id": "20a1c456-6b89-7df1-119b-f458bb0a73be",
+      "state": "20a1c456-6b89-7df1-119b-f458bb0a73be",
+      "institution": "heybanco",
+      "client_id": "9ket5h619fhde1c2jae58lr42"
+    },
+    "meta": {
+      "time": "2023-03-08T19:22:40.9477855+00:00",
+      "version": "3.0.0",
+      "message_id": "5cc5ed40-f8d4-472f-8fc7-5a178c17f7c3"
+    }
+  }
